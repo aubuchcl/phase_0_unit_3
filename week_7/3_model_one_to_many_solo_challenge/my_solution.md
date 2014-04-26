@@ -25,15 +25,13 @@ the tweets for a certain user id that were made after last Wednesday (whenever l
 
 ```SELECT * FROM Tweet
 		WHERE date > 14-04-23 00:00:00.000
-		AND id = 'desired_user'
-```
+		AND id = 'desired_user'```
 
 all the tweets associated with a given user's twitter handle
 
 ```SELECT Tweet.text FROM Tweet JOIN Account
 		ON (Tweet.id = Account.username)
-		WHERE Account.username = 'handle'
-```	
+		WHERE Account.username = 'handle'```	
 
 
 the twitter handle associated with a given tweet id
@@ -41,8 +39,7 @@ the twitter handle associated with a given tweet id
 
 ```SELECT Account.username FROM Account JOIN Tweet
 		ON (Account.username = Tweet.id)
-		WHERE Tweet.id = Account.username
-```
+		WHERE Tweet.id = Account.username```
  
 
 ## Release 5: Reflection
