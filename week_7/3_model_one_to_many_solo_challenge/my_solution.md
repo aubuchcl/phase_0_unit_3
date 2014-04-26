@@ -25,16 +25,16 @@ all the tweets associated with a given user's twitter handle
 the twitter handle associated with a given tweet id
 
 ```SELECT * FROM Tweet
- WHERE id = 'desired_user'
- ```
+ 		WHERE id = 'desired_user'
+```
 
 ```SELECT * FROM Tweet
 		WHERE date > 14-04-23 00:00:00.000
 		AND id = 'desired_user'
 ```
 ```SELECT Tweet.text FROM Tweet JOIN Account
-	ON (Tweet.id = Account.username)
-	WHERE Account.username = 'handle'
+		ON (Tweet.id = Account.username)
+		WHERE Account.username = 'handle'
 ```	
 
 ```SELECT Account.username FROM Account JOIN Tweet
