@@ -5,8 +5,7 @@
 
 
 ### My Quiz Results:
-https://github.com/aubuchcl/phase_0_unit_3/blob/master/week_7/screenshots%20for%20week%207/quiz_shot.png
-
+![not working](https://github.com/aubuchcl/phase_0_unit_3/raw/master/week_7/imgs/quiz_shot.png)
 
 
 
