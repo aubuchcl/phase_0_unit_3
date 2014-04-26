@@ -18,24 +18,26 @@ The main relation between the two lies in the username and its output.  The user
 
 all the tweets for a certain user id
 
-the tweets for a certain user id that were made after last Wednesday (whenever last Wednesday was for you)
-
-all the tweets associated with a given user's twitter handle
-
-the twitter handle associated with a given tweet id
-
 ```SELECT * FROM Tweet
- 		WHERE id = 'desired_user'
-```
+ 		WHERE id = 'desired_user' ```
+
+the tweets for a certain user id that were made after last Wednesday (whenever last Wednesday was for you)
 
 ```SELECT * FROM Tweet
 		WHERE date > 14-04-23 00:00:00.000
 		AND id = 'desired_user'
 ```
+
+all the tweets associated with a given user's twitter handle
+
 ```SELECT Tweet.text FROM Tweet JOIN Account
 		ON (Tweet.id = Account.username)
 		WHERE Account.username = 'handle'
 ```	
+
+
+the twitter handle associated with a given tweet id
+
 
 ```SELECT Account.username FROM Account JOIN Tweet
 		ON (Account.username = Tweet.id)
