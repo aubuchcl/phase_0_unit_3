@@ -5,26 +5,31 @@
 
 
 ## Release 0: Student Roster Schema
-<!-- display your image inline here -->
+![alt text] (https://github.com/aubuchcl/phase_0_unit_3/blob/master/week_7/imgs/students.png)
 
 
 ## Release 1: One to Many Schema
-<!-- display your image inline here -->
+![alt text](https://github.com/aubuchcl/phase_0_unit_3/blob/master/week_7/imgs/one_to_many.png)
 
 
 ## Release 2: One to One Schema
-<!-- display your image inline here -->
+![alt text](https://github.com/aubuchcl/phase_0_unit_3/blob/master/week_7/imgs/one_to_one.png)
 
 
 ## Release 3: Many to Many Schema
-<!-- display your image inline here -->
+![alt text](https://github.com/aubuchcl/phase_0_unit_3/blob/master/week_7/imgs/many_to_many.png)
 
 
 ## Release 4: Design your own Schema
 Description of what you're modeling: 
+one to one is a relationship of a dog/pet to a family.  The family can still be a family without a pet but if their is a pet that pet can only be that families pet.
 
-<!-- display your one-to-one image inline here -->
-<!-- display your many-to-many image inline here -->
+![alt text](https://github.com/aubuchcl/phase_0_unit_3/blob/master/week_7/imgs/one_to_one_pet.png)
+
+
+the many to many I chose to work with was a buy and seller relationship that involves a storefront.  The buyer could buy many items and the seller could sell to many customers and the inventory can be many different items and quantity threshholds etc.  
+
+![alt text](https://github.com/aubuchcl/phase_0_unit_3/blob/master/week_7/imgs/many_many_store.png)
 
 ## Release 5: Reflection
 
