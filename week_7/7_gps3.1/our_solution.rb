@@ -134,3 +134,20 @@ end
  list1.include?("milk")
  list1.remove_all
  assert{list1.list.length ==0}
+
+
+
+# What parts of your strategy worked? What problems did you face?
+#   Our strategy was to go through step by step, making sure everything worked and being specific with our pseudo code.  
+# What questions did you have while coding? What resources did you find to help you answer them?
+#   Just some general syntax questions that we found the answer to on ruby docs.
+# What concepts are you having trouble with, or did you just figure something out? If so, what?
+#   Not any concepts in this type of program.  We did forget to assign the reader but eventually remembered.
+# Did you learn any new skills or tricks?
+#   inline inject instead of multi line.
+# How confident are you with each of the Learning Competencies?
+#   Rather confident with ruby classes
+# Which parts of the challenge did you enjoy?
+#   Pairing was fun
+# Which parts of the challenge did you find tedious?
+#   none on this , good challenge.

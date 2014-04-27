@@ -45,4 +45,19 @@ sqlite> .exit
 </p>
 
 ## Release 5: Reflect
-<!-- Add your reflection here -->
+<p>
+	
+What parts of your strategy worked? What problems did you face?
+	My strategy was to use basic line breaks to give this markdown the smackdown.  I used the provided tutorial for the sql. It was extremely useful.<br>
+What questions did you have while coding? What resources did you find to help you answer them?<br>
+I used the tutorial provided to find all the answers, they were mostly syntax based.<br>
+What concepts are you having trouble with, or did you just figure something out? If so, what?<br>
+Not having a ton of trouble with any concepts in particular.  More just trying to make room in my brain for all of them. <br>
+How confident are you with each of the Learning Competencies?<br>
+Right in the middle.  I think I could do more problem sets like this with minimal research but not without the tutorial. <br>
+Which parts of the challenge did you enjoy?<br>
+learning something new<br>
+Which parts of the challenge did you find tedious?<br>
+when you forget to type or mistype in the terminal and cant go back.
+
+</p>
