@@ -26,16 +26,83 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+// var average =  function(scores) {
+//      avg = 0;
+//     for (var x = 0; x < scores.length; x++)
+//     {
+//       avg = avg + scores[x];
+//     }
+//     avg = avg / scores.length;
+//     return avg;
+//   };
 
 
+// var gradebook = {};
 
+
+// var gradebook = {"Joseph": {},  "Susan": {}, "William": {}, "Elizabeth": {}, addScore: function(name, score){ if (name == "Joseph")
+// {return gradebook.Joseph.testScores.push(score)}
+// else if (name == "Susan")
+// {return gradebook.Susan.testScores.push(score)}
+// else if (name == "William")
+// {return gradebook.William.testScores.push(score)}
+// else if (name == "Elizabeth")
+// {return gradebook.Elizabeth.testScores.push(score)}
+// else
+// {return "that is not an option"}
+// }, getAverage: function(name){if (name == "Joseph")
+// {return average(scores[0])}
+// else if (name == "Susan")
+// {return average(scores[1])}
+// else if (name == "William")
+// {return average(scores[2])}
+// else if (name == "Elizabeth")
+// {return average(scores[3])}
+// else
+// {print; "no return"}
+// }};
+
+// gradebook.Joseph = {testScores: scores[0]};
+// gradebook.Susan = {testScores: scores[1]};
+// gradebook.William = {testScores: scores[2]};
+// gradebook.Elizabeth = {testScores: scores[3]};
 
 
 // __________________________________________
 // Refactored Solution
 
 
+var average =  function(scores) {
+     avg = 0;
+    for (var x = 0; x < scores.length; x++)
+    {
+      avg = avg + scores[x];
+    }
+    avg = avg / scores.length;
+    return avg;
+  };
 
+var gradebook = {"Joseph": {testScores: scores[0]},  "Susan": {testScores: scores[1]}, "William": {testScores: scores[2]}, "Elizabeth": {testScores: scores[3]}, addScore: function(name, score){ if (name == "Joseph")
+{return gradebook.Joseph.testScores.push(score)}
+else if (name == "Susan")
+{return gradebook.Susan.testScores.push(score)}
+else if (name == "William")
+{return gradebook.William.testScores.push(score)}
+else if (name == "Elizabeth")
+{return gradebook.Elizabeth.testScores.push(score)}
+else
+{return "that is not an option"}
+}, getAverage: function(name){if (name == "Joseph")
+{return average(scores[0])}
+else if (name == "Susan")
+{return average(scores[1])}
+else if (name == "William")
+{return average(scores[2])}
+else if (name == "Elizabeth")
+{return average(scores[3])}
+else
+{print; "no return"}
+}};
 
 
 
@@ -43,7 +110,13 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Reflect
-
+// My strategy was not to get overwhelmed with synatx change from ruby and I may have failed for a few mins at a time.  I faced problems with where to put certain ids such as function and {}.
+// I had lots of qeustions while coding.  Most of which I solved from the listed resource and w3 schools website.
+// Not really having any problems with concepts just execution.
+// Learned a lot about how to structure things in javascript and not to type in java when serching for javascript in google
+// I am relativly confident in what I did.
+// I enjoyed revisiting javascript
+// It was also tedious.
 
 
 
