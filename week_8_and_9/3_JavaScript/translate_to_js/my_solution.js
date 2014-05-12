@@ -123,3 +123,5 @@ return true;}
 
 
 // 5. Reflection 
+
+I enjoyed transforming the ruby to script.  It reminded me of how much I like ruby.  I feel like when I use ruby I can easily navigate my goals and have the tools in memory to complete the challenges.  When I switch to script I have a harder time trying to remember what goes where and how to use the different tools that are available to the language.  I learned on this assignment, how to use asserts in script.

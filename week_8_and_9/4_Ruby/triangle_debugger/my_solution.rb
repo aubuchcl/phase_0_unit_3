@@ -111,10 +111,16 @@ assert {valid_triangle?(50, 70, 200) == false}
 
 
 # What parts of your strategy worked? What problems did you face?
-  # 
+  # The strat was to work through the bugs and then use the example I did earlier in prep to guide the redesign.
 # What questions did you have while coding? What resources did you find to help you answer them?
+  #I didnt really have to many questions.  I used the example from earlier in prep to guide.
 # What concepts are you having trouble with, or did you just figure something out? If so, what?
+  #This was pretty straight forward
 # Did you learn any new skills or tricks?
+  # not for this
 # How confident are you with each of the Learning Competencies?
+  #confident
 # Which parts of the challenge did you enjoy?
+  #looking for bugs
 # Which parts of the challenge did you find tedious?
+  #explaining the bugs.
